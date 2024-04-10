@@ -5,7 +5,7 @@ phases:
       - npm install -g serverless
   build:
     commands:
-      - sls package
+      - sls package --package buildArtifact
 artifacts:
   files:
     - '**/*'
